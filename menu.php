@@ -21,6 +21,11 @@
         <li><a href="exercicio.php?dir=revisao&file=heranca2">Herança 2</a></li>
         <li><a href="exercicio.php?dir=revisao&file=interface">Interface</a></li>
         <li><a href="exercicio.php?dir=revisao&file=abstract">Classe Abstract</a></li>
+        <li><a href="exercicio.php?dir=revisao&file=desafio_erros">Desafio Erros</a></li> 
+        <li><a href="exercicio.php?dir=revisao&file=final">Final</a></li> 
+        <li><a href="exercicio.php?dir=revisao&file=trait">Trait</a></li> 
+        <li><a href="exercicio.php?dir=revisao&file=trait02">Trait  02</a></li> 
+        <li><a href="exercicio.php?dir=revisao&file=methodos_magicos">Methodos Magicos</a></li> 
       
         </ul>
 
@@ -96,6 +101,8 @@
             <li><a href="exercicio.php?dir=lista_exercicios2&file=ex22">Exercicio 22</a></li>
             <li><a href="exercicio.php?dir=lista_exercicios2&file=ex23">Exercicio 23</a></li>
             <li><a href="exercicio.php?dir=lista_exercicios2&file=ex24">Exercicio 24</a></li>
+            <li><a href="exercicio.php?dir=lista_exercicios2&file=ex25">Exercicio 25</a></li>
+            <li><a href="exercicio.php?dir=lista_exercicios2&file=ex26">Exercicio 26</a></li>
         </ul>
 
     </div>
