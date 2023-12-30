@@ -7,3 +7,9 @@ body.login.principal{
     align-items: center;
     justify-content: center;
 }
+
+.erros > p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: red;
+}

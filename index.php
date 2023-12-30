@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+<?php 
+session_start();
+
+if($_COOKIE['usuario']){
+    $_SESSION['usuario']=$_COOKIE['usuario'];
+}
+
+if(!$_SESSION['usuario']){
+    header("Location:login.php");
+}
+
+
+?>
 <html lang="en">
 
 <head>
@@ -17,6 +30,11 @@
     <header class="cabecalho">
         <h1>Mega Treino</h1>
     </header>
+    <nav class="navegacao">
+    <span class="usuario">Usuario: <?= $_SESSION['usuario'] ?> </span> 
+ 
+    <a href="logout.php" class="btn btn-danger">Sair</a> 
+    </nav>
     <div class="principal">
         <div class="conteudo">
         

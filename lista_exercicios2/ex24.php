@@ -78,6 +78,7 @@ class Boletim{
 
 $boletim1=new Boletim($nome,$nota1,$nota2,$media,$conceito);
 echo $boletim1->CalcularMedia($media);
+
 ?>
 
 
